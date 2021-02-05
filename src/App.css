@@ -1,0 +1,277 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+ul{
+  list-style-type: none;
+}
+#one{
+  /* background-color: red; */
+  height: 400px;
+  width: 320px;
+  margin: 15px;
+  box-shadow: 2px 2px 3px black;
+  text-align: center;
+}
+#two{
+  /* background-color: blue; */
+  height: 400px;
+  width: 320px;
+  margin: 15px;
+  box-shadow: 2px 2px 3px black;
+  text-align: center;
+}
+#three{
+  /* background-color: green; */
+  height: 400px;
+  width: 320px;
+  margin: 15px;
+  box-shadow: 2px 2px 3px black;
+  text-align: center;
+}
+
+
+@media (max-width: 800px){
+  #main {
+    flex-direction: column;
+  }
+  #one,#two,#three{
+    /* margin: 0 auto; */
+    position: relative;
+    top: 15px;
+    left: 30px;
+  }
+}
+
+@media (max-width: 667px){
+  #main {
+    flex-direction: column;
+  }
+  #one,#two,#three{
+    /* margin: 0 auto; */
+    position: relative;
+    top: 15px;
+    left: 15px;
+  }
+}
+
+@media (max-width: 736px){
+  #main {
+    flex-direction: column;
+  }
+  #one,#two,#three{
+    /* margin: 0 auto; */
+    position: relative;
+    top: 15px;
+    left: 33px;
+  }
+}
+
+@media (max-width: 812px){
+  #main {
+    flex-direction: column;
+  }
+  #one,#two,#three{
+    /* margin: 0 auto; */
+    position: relative;
+    top: 15px;
+    left: 13px;
+  }
+}
+
+  @media (max-width: 568px){
+    #main {
+      flex-direction: column;
+    }
+    #one,#two,#three{
+      position: relative;
+      top: 15px;
+      left: -4px;
+      height: 469px;
+      width: 298px;
+    }
+    #uniImg{
+      height: 215px !important;
+      width: 297px !important;
+    }
+  }
+  @media(max-width: 823px){
+    #main {
+      flex-direction: column;
+    }
+    #one,#two,#three{
+      position: relative;
+      top: 15px;
+      left: 30px;
+      height: 469px;
+      width: 324px;
+  
+    }
+    #uniImg{
+      height: 215px !important;
+      width: 323px !important;
+    }
+  }
+@media(max-width:640px){
+  #main {
+    flex-direction: column;
+  }
+  #one,#two,#three{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 469px;
+    width: 301px;
+  }
+  #uniImg{
+    height: 215px !important;
+    width: 301px !important;
+  }
+}
+
+@media(max-width:731px){
+  #main {
+    flex-direction: column;
+  }
+  #one,#two,#three{
+    position: relative;
+    top: 15px;
+    left: 18px;
+    height: 469px;
+    width: 340px;
+  }
+  #uniImg{
+    height: 215px !important;
+    width: 340px !important;
+  }
+}
+
+@media(max-width: 568px){
+  #main {
+    flex-direction: column;
+  }
+  #one,#two,#three{
+    position: relative;
+    top: 15px;
+    left: 7px;
+    height: 469px;
+    width: 279px;
+  }
+  #uniImg{
+    height: 215px !important;
+    width: 278px !important;
+  }
+}
+
+@media(max-width: 667px){
+  #main {
+    flex-direction: column;
+  }
+  #one,#two,#three{
+    position: relative;
+    top: 15px;
+    left: 7px;
+    height: 469px;
+    width: 320px;
+  }
+  #uniImg{
+    height: 215px !important;
+    width: 320px !important;
+  }
+}
+
+@media(max-width: 736px){
+  #main {
+    flex-direction: column;
+  }
+  #one,#two,#three{
+    position: relative;
+    top: 15px;
+    left: 7px;
+    height: 469px;
+    width: 360px;
+  }
+  #uniImg{
+    height: 215px !important;
+    width: 360px !important;
+  }
+}
+
+@media(max-width: 812px){
+  #main {
+    flex-direction: column;
+  }
+  #one,#two,#three{
+    position: relative;
+    top: 15px;
+    left: 6px;
+    height: 469px;
+    width: 327px;
+  }
+  #uniImg{
+    height: 215px !important;
+    width: 327px !important;
+  }
+}
+
+@media(max-width: 653px){
+  #main {
+    flex-direction: column;
+  }
+  #one,#two,#three{
+    position: relative;
+    top: 15px;
+    left: 6px;
+    height: 378px;
+    width: 244px;
+  }
+  #uniImg{
+    height: 200px !important;
+    width: 244px !important;
+  }
+}
+
+#uniImg{
+  width: 320px;
+  height: 200px;
+}
